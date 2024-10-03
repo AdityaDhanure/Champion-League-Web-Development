@@ -41,7 +41,7 @@ Welcome to the **Monthly Mania (Web Development)** event! This repository contai
 1. **Fork this repository** to your GitHub account.
 2. **Clone your fork** to your local machine using:
    ```bash
-   git clone https://github.com/your-username/monthly-mania-web-dev.git
+   git clone https://github.com/AdityaDhanure/Champion-League-Web-Development.git
    ```
 3. Follow the instructions for each task provided above.
 
