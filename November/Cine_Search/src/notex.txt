@@ -1,0 +1,54 @@
+// import {useState, useEffect} from 'react'
+// import './App.css';
+
+// //props is an inbuilt object that is passed into the components
+
+// const Person = (props) => {
+//   return (
+//     <>
+    
+//     <h2>Name : {props.name}</h2>
+//     <h2>Age: {props.age}</h2>
+//     </>
+
+//   )
+// }
+// // if no props passed nothing is shown
+// // props means properties assigned in curly braces but for simple strings it is not required
+
+// const App = () => {
+
+//   //any function that starts with a use word is called a hook
+//   //Array destructuring , set one is a setter function.
+//   //we have passed the default value in the hook.
+
+
+//   // we can change the state by calling the setter as a callback function when the event triggers
+//   // never mutate the state directly , we will always change using setters
+//   const [counter, setCounter] = useState(0)
+
+//   //this useffect is called when the page reloads, it renders first
+
+//   // if you dont pass a dependency array. it will continuosly update and your counter wont work, in the dependency array
+//   // the state variable mentioned, every time it changes, the useEffect is called
+//   useEffect(() => {
+//     alert('You have changed the counter to' + counter)
+//   }, [counter])
+
+//   return (
+//     <div className="App">
+
+
+    
+
+//       <button onClick ={() => setCounter((prevCount) => prevCount - 1)}>-</button>
+//       <h1>{counter}</h1>
+//       <button onClick ={() => setCounter((prevCount) => prevCount + 1)}>+</button>
+
+
+
+//     </div>
+//   );
+// }
+
+// export default App;
